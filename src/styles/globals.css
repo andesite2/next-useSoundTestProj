@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.gaming {
+  width: 3000px;
+  height: 3000px;
+  /* アニメーションの長さ */
+  animation: gaming 0.2s linear infinite;
+}
+
+.gaming2 {
+  width: 3000px;
+  height: 3000px;
+  /* アニメーションの長さ */
+  background: linear-gradient(to right, #e60000, #f39800, #fff100, #009944, #0068b7, #1d2088, #920783, #e60000) 0 / 200%;
+  animation: 1s example4 linear infinite;
+}
+
+@keyframes example4 {
+  100% {
+    background-position: 200%;
+  }
+
+}
+
+@keyframes gaming {
+
+  /* 色の指定 */
+  0% {
+    background-color: Magenta;
+  }
+
+  33% {
+    background-color: yellow;
+  }
+
+  66% {
+    background-color: Cyan;
+  }
+
+  100% {
+    background-color: Magenta;
+  }
+}
